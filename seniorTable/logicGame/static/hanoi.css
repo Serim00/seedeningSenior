@@ -4,6 +4,13 @@
   font-family: sans-serif;
 }
 
+#canvas {
+  margin-top: 150px !important;
+}
+::-webkit-scrollbar {
+	display: none;
+  }
+
 #debug {
   display: none;
   margin: 5em 0 0 5em;;
@@ -33,9 +40,16 @@
   margin: 220px auto 0 auto;
 }
 
-#introduction-message > p {
-  margin-top: 0.4em;
+#introduction-message > h1 {
+  font-family: "GongGothicMedium"
+
+}
+
+#introduction-message > h3 {
+  margin-top: 2em;
   margin-bottom: 1.3em;
+  font-size: 20px;
+  
 }
 
 #victory-notification {
