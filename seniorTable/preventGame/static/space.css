@@ -1,10 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
-body {margin: 0; padding: 0; background: #333; color: white; font-family: 'Press Start 2P', sans-serif; text-align: center; text-transform: uppercase;}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {margin: 0; padding: 0; background: black; color: white; font-family: 'Press Start 2P', sans-serif; text-align: center; text-transform: uppercase;}
 input {position: absolute; left: -100vw;}
 label {display: block; cursor: pointer; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 p {margin: 0; padding: 0;}
 #title,
-form {position: absolute; width: 100vmin; height: 100vmin; left: 50%; top: 0; transform: translateX(-50%); background: black; overflow: hidden;}
+form {position: absolute; width: 100vmin; height: 100vmin; left: 50%; top: 0; transform: translateX(-50%); background: black; overflow: hidden; margin: 0 !important;}
 #title {display: none;}
 #title #text {perspective: 15vmin;}
 #title h1 {position: absolute; left: 0; top: -2.5vmin; color: magenta; margin: 10vmin 0 2vmin; font-size: 12vmin; line-height: 15vmin; transform: rotateX(-10deg);}

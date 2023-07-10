@@ -6,6 +6,11 @@ body {
 ::-webkit-scrollbar {
     display: none;
  }
+
+ body {
+    margin: 0 !important;
+
+ }
 #scene {
     width: 400px;
     height: 400px;
